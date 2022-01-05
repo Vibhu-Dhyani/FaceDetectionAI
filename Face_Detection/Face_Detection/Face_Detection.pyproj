@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>910ea379-2cb9-4412-9843-e7a6d67735b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Face_Detection.py</StartupFile>
+    <StartupFile>Face_Detection_Live.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Face_Detection.py" />
+    <Compile Include="Face_Detection_Live.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
