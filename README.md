@@ -8,7 +8,7 @@ This is a simple ML project depecting Face detection from a photo or a live vide
 2-		Face_Detection_Live.py - From a video  or WebCam
 
 
-(Make sure to mark startup project accdngly)
+(Make sure to mark startup file accdngly)
 
 
 Thx.
